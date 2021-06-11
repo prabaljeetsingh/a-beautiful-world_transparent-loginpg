@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+     background: url(photo1.jpg) no-repeat center center fixed;
+     background-size: cover;
+
+}
+.container{
+    color: honeydew;
+    position: absolute;
+    top: 35%;
+    left: 44%;
+}
+.container h1{
+    font-size: 3rem;
+    border-bottom: 5px solid violet;
+    margin-bottom: 10px;
+    padding:  14px 0px;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+}
+.box{
+    width:100%;
+    border-bottom: 1px solid violet;
+    margin: 15px 0px;
+}
+.box input{
+     background: none;
+     width:75%;
+     padding: 4px 10px ;
+     border:none;
+     font-family: 'Dancing Script', cursive;
+     outline: none;
+     color: white;
+     font-size: 25px;
+}
+.box i{
+    width:25px;
+    text-align: center;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 35%;
+    margin: 12px 0px;
+    padding: 10px 21px;
+    border-radius: 12px;
+    border:1px solid violet;
+    font-size: 16px;
+    background: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+.btn:hover{
+    opacity: 0.5;
+    background: white;
+    color: violet;
+    font-family: 'Ubuntu', sans-serif;
+}
